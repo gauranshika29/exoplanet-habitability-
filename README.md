@@ -91,7 +91,7 @@ exoplanet-habitability/
 ### 1. Clone the repo & activate environment
 
 ```bash
-git clone https://github.com/your-username/exoplanet-habitability.git
+git clone https://github.com/gauranshika29/exoplanet-habitability-.git
 cd exoplanet-habitability
 python3 -m venv venv
 source venv/bin/activate
@@ -120,8 +120,7 @@ Runs KMeans clustering and Random Forest classification. Saves models to `models
 python3 src/dashboard.py
 ```
 
-Opens the interactive dashboard at [http://127.0.0.1:8050](http://127.0.0.1:8050).
-
+Run `python3 src/dashboard.py` and open [http://127.0.0.1:8050](http://127.0.0.1:8050) in your browser.
 ---
 
 ## Screenshots
