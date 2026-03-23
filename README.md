@@ -115,15 +115,11 @@ python3 src/ml_pipeline.py
 Runs KMeans clustering and Random Forest classification.
 
 ### 4. Launch the dashboard
-
 ```bash
 python3 src/dashboard.py
 ```
 
 Run `python3 src/dashboard.py` and open [http://127.0.0.1:8050](http://127.0.0.1:8050) in your browser.
-=======
-Run `python3 src/dashboard.py` and open [http://127.0.0.1:8050](http://127.0.0.1:8050) in your browser.
-
 
 ## Screenshots
 
