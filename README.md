@@ -1,6 +1,6 @@
 # 🪐 Exoplanet Habitability Analyzer
 
-An end-to-end data science and machine learning project that scores, clusters, and classifies exoplanets by their potential for habitability — using real data from the [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/).
+An end-to-end data science and machine learning project that scores, clusters, and classifies exoplanets by their potential for habitability,using real data from the [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/).
 
 ![Dashboard Preview](outputs/plots/cluster_scatter.png)
 
@@ -8,7 +8,7 @@ An end-to-end data science and machine learning project that scores, clusters, a
 
 ## Motivation
 
-With thousands of exoplanets confirmed, identifying which ones are most Earth-like is a core challenge in astrobiology. This project builds a scientifically motivated habitability scoring system inspired by the **Earth Similarity Index (ESI)**, then applies machine learning to classify and cluster planets automatically — wrapped in an interactive dashboard for exploration.
+With thousands of exoplanets confirmed, identifying which ones are most Earth-like is a core challenge in astrobiology. This project builds a scientifically motivated habitability scoring system inspired by the **Earth Similarity Index (ESI)**, then applies machine learning to classify and cluster planets automatically, wrapped in an interactive dashboard for exploration.
 
 ---
 
@@ -42,7 +42,7 @@ With thousands of exoplanets confirmed, identifying which ones are most Earth-li
 
 - **5-Fold CV F1 (weighted): 0.735 ± 0.062**
 - Trained on 4 habitability tiers: Low / Moderate / High / Very High
-- `Low` tier F1: 0.81 — strong performance on the majority class
+- `Low` tier F1: 0.81 -strong performance on the majority class
 - Class imbalance handled via `class_weight="balanced"` + threshold tuning
 
 ---
@@ -112,7 +112,7 @@ Reads `data/clean_exoplanets.csv`, computes habitability scores, saves `data/hab
 python3 src/ml_pipeline.py
 ```
 
-Runs KMeans clustering and Random Forest classification. Saves models to `models/` and plots to `outputs/plots/`.
+Runs KMeans clustering and Random Forest classification.
 
 ### 4. Launch the dashboard
 
@@ -125,8 +125,6 @@ Run `python3 src/dashboard.py` and open [http://127.0.0.1:8050](http://127.0.0.1
 =======
 Run `python3 src/dashboard.py` and open [http://127.0.0.1:8050](http://127.0.0.1:8050) in your browser.
 
->>>>>>> b141788 (Add dashboard screenshots to README)
----
 
 ## Screenshots
 
