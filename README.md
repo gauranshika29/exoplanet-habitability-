@@ -119,7 +119,6 @@ Runs KMeans clustering and Random Forest classification.
 ```bash
 python3 src/dashboard.py
 ```
-<<<<<<< HEAD
 
 Run `python3 src/dashboard.py` and open [http://127.0.0.1:8050](http://127.0.0.1:8050) in your browser.
 =======
