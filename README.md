@@ -130,8 +130,6 @@ Run `python3 src/dashboard.py` and open [http://127.0.0.1:8050](http://127.0.0.1
 
 ## Screenshots
 
-> Add screenshots of your dashboard here after taking them.
-
 | Dashboard Overview | Cluster Scatter | Top 10 Bar Chart |
 |---|---|---|
 | ![dash overview](outputs/plots/dashboard_overview.png) | ![Clusters](outputs/plots/cluster_scatter.png) | ![top10](plots/top10_habitability.png) |
