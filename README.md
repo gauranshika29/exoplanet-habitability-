@@ -119,8 +119,13 @@ Runs KMeans clustering and Random Forest classification. Saves models to `models
 ```bash
 python3 src/dashboard.py
 ```
+<<<<<<< HEAD
 
 Run `python3 src/dashboard.py` and open [http://127.0.0.1:8050](http://127.0.0.1:8050) in your browser.
+=======
+Run `python3 src/dashboard.py` and open [http://127.0.0.1:8050](http://127.0.0.1:8050) in your browser.
+
+>>>>>>> b141788 (Add dashboard screenshots to README)
 ---
 
 ## Screenshots
@@ -129,7 +134,7 @@ Run `python3 src/dashboard.py` and open [http://127.0.0.1:8050](http://127.0.0.1
 
 | Dashboard Overview | Cluster Scatter | Top 10 Bar Chart |
 |---|---|---|
-| *(screenshot)* | ![Clusters](outputs/plots/cluster_scatter.png) | *(screenshot)* |
+| ![dash overview](outputs/plots/dashboard_overview.png) | ![Clusters](outputs/plots/cluster_scatter.png) | ![top10](plots/top10_habitability.png) |
 
 ---
 
